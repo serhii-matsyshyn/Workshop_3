@@ -34,8 +34,6 @@ def shoot(field):
     row=int(input('Row: '))
     column=int(input('Column: '))
     try: 
-        a=field[row]
-        b=field[column]
         place=field[row][column]
         return (row, column)
     except: 
