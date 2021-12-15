@@ -1,4 +1,7 @@
 # Workshop Battleship game
+[![Pylint](https://github.com/serhii-matsyshyn/Workshop_3/actions/workflows/pylint.yml/badge.svg)](https://github.com/serhii-matsyshyn/Workshop_3/actions/workflows/pylint.yml)
+[![Tests](https://github.com/serhii-matsyshyn/Workshop_3/actions/workflows/tests.yml/badge.svg)](https://github.com/serhii-matsyshyn/Workshop_3/actions/workflows/tests.yml)
+
 ## Короткий опис завдання:
 Вашим завданням є реалізація гри “Морський бій”. Не обов’язково створювати бота-противника - гра має спочатку надавати одному користувачу заповнити необхідними кораблями своє поле - потім іншому. Після того користувачі починають по-черзі “стріляти” по кораблям - можна реалізувати надання додаткових ходів людині, яка попала (і або) вбила корабель. Гра закінчується як тільки хтось один виграв. 
 
