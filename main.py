@@ -2,12 +2,25 @@
 Battlehip game
 """
 
+def print_field(field):
+    for i in  field:
+        for j in range(len(i)):
+            print (i[j], end= '    ')
+        print()
 
-def init(field_sz):
-    """
-    Creating the field.
-    """
 
+def shoot(field):
+    row=int(input('Row: '))
+    column=int(input('Column: '))
+    try: 
+        place=field[row][column]
+        return (row, column)
+    except: 
+        print('Некоректні координати')
+        shoot(field)
+
+
+def init():
     field = [['.'] * field_sz for _ in range(field_sz)]
     return field
 
